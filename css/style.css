@@ -1,0 +1,227 @@
+:root{
+    --background-color: #0A090A;
+    --text-color: #fff;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/main-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.container{
+    margin: auto;
+    max-width: 1140px;
+}
+.header, .user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    margin-bottom: 30%;
+}
+.logo{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+}
+.search{
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+}
+.search-button{
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 10px 18px;
+}
+.search-input{
+    flex: 1;
+    border: none;
+    color: #AEAEAE;
+    background: rgba(196, 196, 196, 0.5)!important;
+    border-radius: 5px!important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+.search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #AEAEAE;
+    opacity: 1;
+}
+  
+.search-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #AEAEAE;
+}
+  
+.search-input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #AEAEAE;
+}
+.avatar{
+    margin-left: 20px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0 0 7px 0;
+}
+.title-eng{
+    font-size: 20px;
+    line-height: 23px;
+    color: #787878;
+    margin: 0 0 39px 0;
+    display: block;
+}
+.info{
+    margin-bottom: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.movie-info{
+    display: flex;
+    align-items: center;
+}
+.film{
+    display: inline-block;
+    color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    width: 72px;
+    height: 29px;
+    margin-right: 20px;
+}
+.country{
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 33px;
+}
+.play{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    color: #fff!important;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+.play:before{
+    margin: 0  15px 0 0 ;
+    width: 30px;
+    height: 30px;
+    content: '';
+    background-image: url(../img/play.svg);
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.more-info{
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff!important;
+    text-decoration: none;
+    text-align: right;
+}
+.more-info:after{
+    margin: 0 0 0 15px;
+    width: 30px;
+    height: 30px;
+    content: '';
+    background-image: url(../img/play.svg);
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: rotate(90deg);
+}
+.content{
+    background-color: #fff;
+    border-radius: 3px;
+    color: #000000;
+    padding: 43px 50px;
+    min-height: 883px;
+    display: flex;
+
+}
+.cover{
+    display: block;
+    margin-top: -80px;
+}
+.button{
+    padding: 10px 44px;
+    background: #FF8F27;
+    border: none;
+    margin: 20px 0 30px 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+}
+.actors-title{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.actors-list{
+    margin: 0;
+    list-style: none;
+    padding-left: 15px;
+}
+.actors-list__item a{
+    color: #000000!important;
+    font-size: 16px;
+    line-height: 150%;
+}
+.full-info{
+    padding: 0 0 0  43px;
+    flex: 0.97;
+}
+.full-content{
+    display: flex;
+}
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.tabs-item{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.tabs-item-active{
+    color: #FF8F27;
+}
+.tabs-content{
+    margin-right: 20px;
+}
