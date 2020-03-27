@@ -234,7 +234,7 @@ body{
     color: #000000;
 }
 .tabs-item-active{
-    color: #FF8F27;
+    color: #FF8F27!important;
 }
 .tabs-content{
     margin-right: 20px;
@@ -356,8 +356,6 @@ body{
     .tabs-item{
         flex-basis: 50%;
         text-align: center;
-    }
-    .tabs-item{
         border-radius: 5px;
         background-color:rgba(196, 196, 196, 0.192);
         border: 2px solid #fff;
