@@ -8,8 +8,8 @@ $(document).ready(function () {
         } else { 
             $('.visible').removeClass('visible');
             $($(this).attr('href')).toggleClass('visible');
-            $(this).toggleClass('tabs-item-active');
-            $('.tabs-item-active').removeClass('tabs-item-active')}
+            $('.tabs-item-active').removeClass('tabs-item-active');
+            $(this).toggleClass('tabs-item-active');}
 
     });
     $('.subscribe-button').click(function (e) { 
