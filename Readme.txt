@@ -1,0 +1,1 @@
+Сайт сделан на основе https://www.figma.com/file/bVZJ5NHxXY0zgTXToFsis8/Batman?node-id=1%3A2 в рамках интенсива от Glo Academy
