@@ -10,7 +10,7 @@ body{
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
-    background-image: url(../img/main-bg.png);
+    background-image: url(../img/main-bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
 }
@@ -66,11 +66,11 @@ body{
     color: #AEAEAE;
     opacity: 1;
 }
-  
+
 .search-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #AEAEAE;
 }
-  
+
 .search-input::-ms-input-placeholder { /* Microsoft Edge */
     color: #AEAEAE;
 }
@@ -316,7 +316,7 @@ body{
         line-height: 2;
     }
     .full-content{
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
     .tabs-content{
         margin-bottom: 5%
