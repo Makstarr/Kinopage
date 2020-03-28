@@ -195,13 +195,13 @@ body{
     font-size: 16px;
     line-height: 150%;
     margin: 0;
-    margin-left: 15px;
+    padding-left: 4%;
     margin-bottom: 10px;
 }
 .actors-list{
     margin: 0;
     list-style: none;
-    padding-left: 3%;
+    padding-left: 4%;
 }
 .actors-list__item a{
     color: #000000!important;
@@ -216,7 +216,7 @@ body{
 }
 .full-info{
     padding: 0;
-    flex: 0.97;
+    flex: 1;
 }
 .full-content{
     display: flex;
@@ -253,16 +253,56 @@ body{
     font-size: 16px;
     line-height: 140%;
 }
+.premires-list{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+    list-style-type: none;
+}
+.premires-list > li{
+    display: block;
+    margin-bottom: calc(16px * 1.4);
+}
+.actors-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.actors-box .actor{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-basis: 30%;
+    justify-content: space-between;
+
+}
+.actors-box .actors__photo{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.actors-box .text{
+    border-bottom: 15px;
+    font-size: 16px;
+    line-height: 170%;  
+}
+
+
+.subscribe{
+    display: block;
+    max-width: 219px;
+}
 
 .subscribe-title{
     margin-top: 0;
     margin-bottom: 14px;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 150%;
 }
 .subscribe-form{
     display: flex;
+    max-width: 219px;
     margin-bottom: 48px;
 }
 .subscribe-input{
@@ -278,6 +318,8 @@ body{
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
+    max-width: 175px;
+    margin: 0;
 }
 .subscribe-button{
     background-color: #FF8F27;
@@ -285,6 +327,10 @@ body{
     border: none;
     padding: 12px;
     cursor: pointer;
+    margin: 0;
+}
+.banner{
+    max-width: 219px;
 }
 .banner img{
     width: 100%;
